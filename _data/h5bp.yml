@@ -2,4 +2,10 @@ doctype: <!doctype html>
 charset: utf-8
 meta:
   viewport: width=device-width, initial-scale=1
-  check: success
+stylesheets:
+- test.css
+
+script:
+- test.js
+
+modernizr_version: 2.8.3
