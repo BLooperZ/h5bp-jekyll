@@ -10,7 +10,7 @@
     {% for meta in h5bp.meta %}<meta name="{{ meta[0] }}" content="{{ meta[1] }}">
     {% endfor %}<link rel="canonical" href="{{ site.github.url | remove_first: 'http:' }}{{ page.url }}">
 
-    {% unless page.error %}<link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.meta.description }}" href="{{ site.baseurl }}/feed.xml" />
+    {% unless page.error %}<link rel="alternate" type="application/rss+xml" title="{{ site.github.project_title }} - {{ site.github.project_tagline }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
     {% for stylesheet in h5bp.stylesheets %}<link rel="stylesheet" href="{{ site.github.url | remove_first: 'http:' }}{{ stylesheet }}">
