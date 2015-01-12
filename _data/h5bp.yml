@@ -33,9 +33,9 @@ link:
       title: Sitemap
 
   alternate:
-    RSS.xml:
-      type: application/rss+xml
-      title: RSS Feed
+#   RSS.xml:
+#     type: application/rss+xml
+#     title: RSS Feed
     atom.xml:
       type: application/atom+xml
       title: Atom Feed
