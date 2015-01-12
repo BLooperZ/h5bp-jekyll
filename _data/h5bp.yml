@@ -5,8 +5,8 @@ meta:
     charset: utf-8
     x-ua-compatible:
     - IE=edge
-  # - chrome=1
-  # x-dns-prefetch-control: 'off'
+#   - chrome=1
+#   x-dns-prefetch-control: 'off'
 
   name:
     viewport:
@@ -15,10 +15,14 @@ meta:
 
   property:
 
-links:
-  /sitemap.xml: sitemap
-  //check.com: dns-prefetch
-  //raw.githubusercontent.com/mojombo/tpw/master/css/syntax.css: stylesheet
+link:
+  dns-prefetch:
+  - //s3.amazonaws.com
+  - //ajax.googleapis.com
+  - //ajax.microsoft.com
+  - //ajax.aspnetcdn.com
+# /sitemap.xml: sitemap
+# //raw.githubusercontent.com/mojombo/tpw/master/css/syntax.css: stylesheet
 
 stylesheets:
 - /base.css
