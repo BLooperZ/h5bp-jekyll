@@ -8,7 +8,7 @@ meta:
 #   - chrome=1
 #   - requiresActiveX=true
 #   x-dns-prefetch-control: 'off'
-    check: *{site.github.url}
+    check: *site.github.url
 
   name:
     viewport:
