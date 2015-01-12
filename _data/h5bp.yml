@@ -6,6 +6,7 @@ meta:
 links:
   /sitemap.xml: sitemap
   //check.com: dns-prefetch
+  //raw.githubusercontent.com/mojombo/tpw/master/css/syntax.css: stylesheet
 stylesheets:
 - /base.css
 
