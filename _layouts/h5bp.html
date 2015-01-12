@@ -2,10 +2,12 @@
 {{ h5bp.doctype }}
 <html{% for attr in site.html %} {{ attr[0] }}="{{ attr[1] }}"{% endfor %}>
   <head>
-    <meta charset="{{ site.data.h5bp.charset }}">
+    <meta charset="{{ h5bp.charset }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{{ site.github.project_title }}{% if page.title %} – {{ page.title }}{% endif %}</title>
-
+    <meta name="author" content="{{ site.github.project_owner }}">
+    <meta name="description" content="{{ site.github.project_tagline }}">
+    <meta name="viewport" content="{{ h5bp.viewport }}">
     <link rel="canonical" href="{{ site.github.url | remove_first: 'http:' }}{{ page.url }}">
   </head>
 {{content}}
