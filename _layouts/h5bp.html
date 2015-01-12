@@ -12,7 +12,7 @@
 
 
     {% for dlink in h5bp.link %}{% for link in dlink[1] %}
-    <link rel="{{ dlink[0] }}" {% for attr in link %}{{ attr[0] }}="{{ attr[1] }}" {% endfor %} href="{% unless link[0] contains '//' %}/{{ project.repository_name }}{% endunless %}{{ link[0] }}">{% endfor %}{% endfor %}
+    <link rel="{{ dlink[0] }}" {% for attr in link %}{{ attr[0] }}="{{ attr[1] }}" {% endfor %}href="{% unless link[0] contains '//' %}/{{ project.repository_name }}{% endunless %}{{ link[0] }}">{% endfor %}{% endfor %}
 
 
     <link rel="canonical" href="{{ project.url | remove_first: 'http:' }}{{ page.url }}">
