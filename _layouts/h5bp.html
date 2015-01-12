@@ -1,0 +1,34 @@
+---
+
+---
+{{ site.data.h5bp.doctype }}
+<html{% for attr in site.html %} {{ attr[0] }}="{{ attr[1] }}"{% endfor %}>
+  <head>
+    <meta charset="{{ site.charset }}">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ site.name }}{% if page.title %} – {{ page.title }}{% endif %}</title>
+    {% for meta in site.meta %}<meta name="{{ meta[0] }}" content="{{ meta[1] }}">
+    {% endfor %}
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+    {% unless page.error %}<link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.meta.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    {% for sheet in site.stylesheet %}<link rel="stylesheet" href="{{ site.baseurl }}{{ sheet }}">
+    {% endfor %}<script src='//cdnjs.cloudflare.com/ajax/libs/modernizr/{{ site.modernizr_version }}/modernizr.min.js'></script>
+    <script>window.Modernizr || document.write('<script src="js/vendor/modernizr-{{ site.modernizr_version }}.min.js">\x3C/script>')</script>
+    {% endunless %}
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">
+      You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
+    </p>
+    <![endif]-->
+{{ content }}
+    {% unless page.error %}<script src="//ajax.googleapis.com/ajax/libs/jquery/{{ site.jquery_version }}/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{ site.jquery_version }}.min.js"><\/script>')</script>
+    {% for script in site.script %}<script src="{{ site.baseurl }}{{ script }}"></script>
+    {% endfor %}{% for script in page.script %}<script src="{{ site.baseurl }}{{ script }}"></script>
+    {% endfor %}{% include analytics.html %}{% endunless %}
+  </body>
+</html>
