@@ -11,7 +11,7 @@
     {% unless page.error %}
 
 
-    {% for dlink in h5bp.link %}{% for link[0] in dlink[1] %}
+    {% for dlink in h5bp.link %}{% for link in dlink[1] %}
     <link rel="{{ dlink[0] }}" href="{% unless link contains '//' %}/{{ project.repository_name }}{% endunless %}{{ link }}">{% endfor %}{% endfor %}
 
 
