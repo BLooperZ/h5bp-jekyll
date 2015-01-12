@@ -15,7 +15,7 @@ scripts:
 modernizr_version: 2.8.3
 jquery_version: 1.11.2
 
-html: <<
+html: >
   <html{% for attr in site.html %} {{ attr[0] }}="{{ attr[1] }}"{% endfor %}>
     <head>
       <meta charset="{{ h5bp.charset }}">
