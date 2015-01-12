@@ -6,7 +6,7 @@ permalink: /
 HTML5 Boilerplate auto-generated in jekyll, works as external library
 
 ## TODO
-* Add documentaion
+* Add commets to h5bp.yml for further explanations
 * Write the README
 
 #Meanwhile..
