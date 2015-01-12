@@ -13,7 +13,7 @@ HTML5 Boilerplate auto-generated in jekyll, works as external library
 
 ## How to
 * add the following files to your project:
-  * _data/h5bp.html
+  * _data/h5bp.yml
   * _layouts/h5bp.html
   * _includes/analytics.html [optional]
 * add the lines in _config.yml (if you don't already have them)
