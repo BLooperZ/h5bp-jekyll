@@ -24,7 +24,7 @@ link:
     //ajax.aspnetcdn.com:
   sitemap:
     /sitemap.xml:
-      type: text/xml
+      type: application/xml
       title: Sitemap
   stylesheet:
     //raw.githubusercontent.com/mojombo/tpw/master/css/syntax.css:
