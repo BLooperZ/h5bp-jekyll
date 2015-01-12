@@ -22,9 +22,9 @@ link:
   - //ajax.microsoft.com
   - //ajax.aspnetcdn.com
   sitemap:
-    /sitemap.xml: sitemap
+  - /sitemap.xml
   stylesheet:
-    //raw.githubusercontent.com/mojombo/tpw/master/css/syntax.css
+  - //raw.githubusercontent.com/mojombo/tpw/master/css/syntax.css
 
 stylesheets:
 - /base.css
