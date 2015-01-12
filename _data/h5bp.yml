@@ -6,7 +6,9 @@ meta:
     - IE=edge
     # - chrome=1
   name:
-    viewport: width=device-width, initial-scale=1
+    viewport:
+    - width=device-width
+    - initial-scale=1
   property:
 
 links:
