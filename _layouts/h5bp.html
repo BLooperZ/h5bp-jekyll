@@ -1,2 +1,4 @@
 {{ site.data.h5bp.doctype }}
+<html{% for attr in site.html %} {{ attr[0] }}="{{ attr[1] }}"{% endfor %}>
 {{content}}
+</html>
