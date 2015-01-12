@@ -1,7 +1,13 @@
 doctype: <!doctype html>
 charset: utf-8
 meta:
-  viewport: width=device-width, initial-scale=1
+  headers:
+    x-ua-compatible:
+    - IE=edge
+    - chrome=1
+  name:
+    viewport: width=device-width, initial-scale=1
+  property:
 
 links:
   /sitemap.xml: sitemap

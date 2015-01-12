@@ -5,11 +5,11 @@
 <html{% for attr in site.html %} {{ attr[0] }}="{{ attr[1] }}"{% endfor %}>
   <head>
     <meta charset="{{ h5bp.charset }}">
-    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    {% for header in h5bp.meta.headers %}<meta http-equiv="{{ header[0] }}" content="{{header[1] | join: ', ' }}">{% endfor %}
     <title>{{ project.project_title }}{% if page.title %} – {{ page.title }}{% endif %}</title>
     <meta name="author" content="{{ project.owner_name }}">
     <meta name="description" content="{{ project.project_tagline }}">
-    {% for meta in h5bp.meta %}<meta name="{{ meta[0] }}" content="{{ meta[1] }}">
+    {% for meta in h5bp.meta.name %}<meta name="{{ meta[0] }}" content="{{ meta[1] }}">
     {% endfor %}{% unless page.error %}<link rel="canonical" href="{{ project.url | remove_first: 'http:' }}{{ page.url }}">
     {% for link in h5bp.links %}<link rel="{{ link[1] }}" href="{% unless link[0] contains '//' %}/{{ project.repository_name }}{% endunless %}{{ link[0] }}">
     {% endfor %}<link rel="alternate" type="application/rss+xml" title="{{ project.project_title }} - {{ project.project_tagline }}" href="{{ site.baseurl }}/feed.xml">
