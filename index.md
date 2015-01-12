@@ -7,7 +7,7 @@ The project is called {{ site.github.project_title }}
 
 ```
 
-{{ site.data.h5bp.html | escape }}
+{{ site.data.h5bp.html }}
 
 ```
 
