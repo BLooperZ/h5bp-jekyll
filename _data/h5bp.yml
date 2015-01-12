@@ -42,6 +42,8 @@ link:
 
   apple-touch-icon:
     apple-touch-icon.png:
+  shortcut icon:
+    favicon.ico
 
 script:
 - test.js
