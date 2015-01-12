@@ -9,7 +9,6 @@ HTML5 Boilerplate auto-generated in jekyll, works as external library
 * Add documentaion
 * Write the README
 
----
 #Meanwhile..
 ## How to
 * add the following files to your project:
