@@ -1,4 +1,8 @@
 {{ site.data.h5bp.doctype }}
 <html{% for attr in site.html %} {{ attr[0] }}="{{ attr[1] }}"{% endfor %}>
+    <head>
+    <meta charset="{{ site.data.h5bp.charset }}">
+
+  </head>
 {{content}}
 </html>
