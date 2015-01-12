@@ -1,7 +1,5 @@
-markdown: redcarpet
-
-redcarpet:
-  extensions: ["tables"]
+kramdown:
+  input: GFM
 
 html:
   class: no-js
