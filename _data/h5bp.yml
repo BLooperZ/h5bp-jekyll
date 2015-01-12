@@ -23,6 +23,7 @@ link:
   - //ajax.aspnetcdn.com
   sitemap:
   - /sitemap.xml
+    type: ccc
   stylesheet:
   - //raw.githubusercontent.com/mojombo/tpw/master/css/syntax.css
 
