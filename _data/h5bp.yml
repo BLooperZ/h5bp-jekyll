@@ -18,10 +18,10 @@ meta:
 
 link:
   dns-prefetch:
-    //s3.amazonaws.com:
-    //ajax.googleapis.com:
-    //ajax.microsoft.com:
-    //ajax.aspnetcdn.com:
+#   //s3.amazonaws.com:
+#   //ajax.googleapis.com:
+#   //ajax.microsoft.com:
+#   //ajax.aspnetcdn.com:
 
   stylesheet:
     //raw.githubusercontent.com/mojombo/tpw/master/css/syntax.css:
