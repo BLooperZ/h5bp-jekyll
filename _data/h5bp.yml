@@ -33,8 +33,11 @@ link:
       title: Sitemap
 
   alternate:
-    feed.xml:
+    RSS.xml:
       type: application/rss+xml
+      title: RSS Feed
+    atom.xml:
+      type: application/atom+xml
       title: Atom Feed
 
   apple-touch-icon:
