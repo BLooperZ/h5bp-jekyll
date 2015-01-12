@@ -18,14 +18,14 @@ meta:
 
 link:
   dns-prefetch:
-    ? //s3.amazonaws.com
-    //ajax.googleapis.com: 'haha'
-    ? //ajax.microsoft.com
-    ? //ajax.aspnetcdn.com
+    //s3.amazonaws.com:
+    //ajax.googleapis.com: 'haha '
+    //ajax.microsoft.com:
+    //ajax.aspnetcdn.com:
   sitemap:
-    ? /sitemap.xml
+    /sitemap.xml:
   stylesheet:
-    ? //raw.githubusercontent.com/mojombo/tpw/master/css/syntax.css
+    //raw.githubusercontent.com/mojombo/tpw/master/css/syntax.css:
 
 stylesheets:
 - /base.css
