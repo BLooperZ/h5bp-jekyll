@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /
+shortlink: //asa.as/as13dsf
 ---
 The project repository at {{ site.github.repository_url | remove_first: 'https:' }}
 The project repository at {{ site.github.url | remove_first: 'http:' }}
