@@ -8,7 +8,6 @@ meta:
 #   - chrome=1
 #   - requiresActiveX=true
 #   x-dns-prefetch-control: 'off'
-    check: %{site.github.url}
 
   name:
     viewport:
@@ -19,13 +18,14 @@ meta:
 
 link:
   dns-prefetch:
-  - //s3.amazonaws.com
-  - //ajax.googleapis.com
-  - //ajax.microsoft.com
-  - //ajax.aspnetcdn.com
-  sitemap: /sitemap.xml
+  ? //s3.amazonaws.com
+  ? //ajax.googleapis.com
+  ? //ajax.microsoft.com
+  ? //ajax.aspnetcdn.com
+  sitemap:
+  ? /sitemap.xml
   stylesheet:
-  - //raw.githubusercontent.com/mojombo/tpw/master/css/syntax.css
+  ? //raw.githubusercontent.com/mojombo/tpw/master/css/syntax.css
 
 stylesheets:
 - /base.css
