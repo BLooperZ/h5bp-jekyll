@@ -1,3 +1,4 @@
 doctype: <!doctype html>
 charset: utf-8
-viewport: width=device-width, initial-scale=1
+meta:
+  viewport: width=device-width, initial-scale=1
