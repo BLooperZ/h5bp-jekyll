@@ -6,7 +6,7 @@ html:
   # dir: rtl
   lang: en
 
-# google_analytics: U-XXXXXX-XA
+google_analytics: U-XXXXXX-XA
 
 gems:
 - jekyll-mentions
