@@ -1,22 +1,25 @@
 doctype: <!doctype html>
+
 meta:
   headers:
     charset: utf-8
     x-ua-compatible:
     - IE=edge
     # - chrome=1
+    x-dns-prefetch-control: off
+
   name:
     viewport:
     - width=device-width
     - initial-scale=1
+
   property:
-    check: success
-    another: yup
 
 links:
   /sitemap.xml: sitemap
   //check.com: dns-prefetch
   //raw.githubusercontent.com/mojombo/tpw/master/css/syntax.css: stylesheet
+
 stylesheets:
 - /base.css
 
