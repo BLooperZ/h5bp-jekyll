@@ -1,6 +1,8 @@
 kramdown:
   input: GFM
 
+highlight: pygments
+
 html:
   class: no-js
   # dir: rtl
