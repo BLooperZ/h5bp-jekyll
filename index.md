@@ -6,7 +6,9 @@ The project repository at {{ site.github.url | remove_first: 'http:' }}
 The project is called {{ site.github.project_title }}
 
 ```
-example code
+
+{{ site.data.h5bp.html | escape }}
+
 ```
 
 
