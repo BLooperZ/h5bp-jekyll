@@ -6,7 +6,7 @@ meta:
     x-ua-compatible:
     - IE=edge
     # - chrome=1
-    x-dns-prefetch-control: off
+    x-dns-prefetch-control: 'off'
 
   name:
     viewport:
