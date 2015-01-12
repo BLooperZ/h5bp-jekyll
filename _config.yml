@@ -1,1 +1,6 @@
 markdown: redcarpet
+
+html:
+  class: no-js
+  # dir: rtl
+  lang: en
