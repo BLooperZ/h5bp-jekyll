@@ -8,6 +8,8 @@ html:
   # dir: rtl
   lang: en
 
+google_analytics: U-XXXXXX-XA
+
 include: ['_patterns']
 relative_permalinks: false
 
