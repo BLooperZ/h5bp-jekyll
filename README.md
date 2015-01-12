@@ -2,5 +2,5 @@
 layout: default
 permalink: /
 ---
-# base-ui
-Community-driven library collecting UI patterns and their basic implementation in CSS
+# {{ site.github.project_title }}
+{{ site.github.project_tagline }}
