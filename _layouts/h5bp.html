@@ -11,7 +11,7 @@
     {% for meta in h5bp.meta %}<meta name="{{ meta[0] }}" content="{{ meta[1] }}">
     {% endfor %}<link rel="canonical" href="{{ project.url | remove_first: 'http:' }}{{ page.url }}">
     {% for link in h5bp.links %}
-    <link rel="{{ link[1] }}" href="{% unless link[0] contains '//' %}{{ project.repository_name }}{% endunless %}{{ link[0] }}">
+    <link rel="{{ link[1] }}" href="{% unless link[0] contains '//' %}/{{ project.repository_name }}{% endunless %}{{ link[0] }}">
     {% endfor %}
     {% unless page.error %}<link rel="alternate" type="application/rss+xml" title="{{ project.project_title }} - {{ project.project_tagline }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
