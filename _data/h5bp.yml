@@ -18,8 +18,8 @@ meta:
 
 link:
   dns-prefetch:
-    //s3.amazonaws.com:
-    //ajax.googleapis.com: ''
+    ? //s3.amazonaws.com
+    //ajax.googleapis.com: 'haha'
     //ajax.microsoft.com: ''
     //ajax.aspnetcdn.com: ''
   sitemap:
