@@ -10,8 +10,7 @@
     {% for meta in h5bp.meta %}<meta name="{{ meta[0] }}" content="{{ meta[1] }}">
     {% endfor %}<link rel="canonical" href="{{ site.github.url | remove_first: 'http:' }}{{ page.url }}">
     {% for link in h5bp.links %}
-    {% capture pref %}{{ link | slice: 0, 2 }}{% endcapture %}
-    <link rel="{{ link[1] }}" href="{% if pref == '//' %}{{ site.baseurl }}{% endif %}{{ link[0] }}">
+    <link rel="{{ link[1] }}" href="{% if link[0] contains '//' %}check{% endif %}{{ link[0] }}">
     {% endfor %}
     {% unless page.error %}<link rel="alternate" type="application/rss+xml" title="{{ site.github.project_title }} - {{ site.github.project_tagline }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
