@@ -21,8 +21,10 @@ link:
   - //ajax.googleapis.com
   - //ajax.microsoft.com
   - //ajax.aspnetcdn.com
-# /sitemap.xml: sitemap
-# //raw.githubusercontent.com/mojombo/tpw/master/css/syntax.css: stylesheet
+  sitemap:
+    /sitemap.xml: sitemap
+  stylesheet:
+    //raw.githubusercontent.com/mojombo/tpw/master/css/syntax.css
 
 stylesheets:
 - /base.css
