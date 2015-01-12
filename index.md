@@ -1,3 +1,4 @@
 ---
+layout: default
 ---
 The project is called
