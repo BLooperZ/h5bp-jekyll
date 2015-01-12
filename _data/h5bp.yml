@@ -21,9 +21,7 @@ link:
   - //ajax.googleapis.com
   - //ajax.microsoft.com
   - //ajax.aspnetcdn.com
-  sitemap:
-  - /sitemap.xml
-    type: ccc
+  sitemap: /sitemap.xml
   stylesheet:
   - //raw.githubusercontent.com/mojombo/tpw/master/css/syntax.css
 
