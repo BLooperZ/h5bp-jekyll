@@ -1,4 +1,5 @@
-markdown: redcarpet
+markdown: kramdown
+  input: GFM
 
 html:
   class: no-js
