@@ -8,3 +8,9 @@ The project is called {{ site.github.project_title }}
 '''
 example code
 '''
+
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
