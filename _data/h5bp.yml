@@ -19,7 +19,9 @@ meta:
 link:
   dns-prefetch:
     //s3.amazonaws.com:
-    //ajax.googleapis.com: 'haha '
+    //ajax.googleapis.com:
+      type: check1
+      title: check2
     //ajax.microsoft.com:
     //ajax.aspnetcdn.com:
   sitemap:
