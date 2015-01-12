@@ -2,7 +2,6 @@ doctype: <!doctype html>
 
 meta:
   headers:
-    charset: utf-8
     x-ua-compatible:
     - IE=edge
 #   - chrome=1
@@ -36,7 +35,7 @@ link:
 #   RSS.xml:
 #     type: application/rss+xml
 #     title: RSS Feed
-    atom.xml:
+    atom.atom:
       type: application/atom+xml
       title: Atom Feed
 
@@ -54,4 +53,3 @@ modernizr:
   version: 2.8.3
 jquery:
   version: 1.11.2
-
