@@ -5,3 +5,15 @@ html:
   class: no-js
   # dir: rtl
   lang: en
+
+include: ['_patterns']
+relative_permalinks: false
+
+gems:
+- jemoji # Emoji please!
+- jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+
+collections:
+  patterns:
+    output: true
+    permalink: /pattern/:path/
