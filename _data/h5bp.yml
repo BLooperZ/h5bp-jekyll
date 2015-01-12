@@ -23,14 +23,14 @@ link:
     //ajax.microsoft.com:
     //ajax.aspnetcdn.com:
 
+  stylesheet:
+    //raw.githubusercontent.com/mojombo/tpw/master/css/syntax.css:
+    base.css:
+
   sitemap:
     sitemap.xml:
       type: application/xml
       title: Sitemap
-
-  stylesheet:
-    //raw.githubusercontent.com/mojombo/tpw/master/css/syntax.css:
-    base.css:
 
   alternate:
     feed.xml:
