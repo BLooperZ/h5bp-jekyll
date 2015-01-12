@@ -2,7 +2,6 @@
 {% assign project = site.github %}
 {{ h5bp.doctype }}
 
-{% raw | escape %}
 <html{% for attr in site.html %} {{ attr[0] }}="{{ attr[1] }}"{% endfor %}>
   <head>
     <meta charset="{{ h5bp.charset }}">
@@ -24,4 +23,3 @@
   </head>
 {{content}}
 </html>
-{% endraw %}
