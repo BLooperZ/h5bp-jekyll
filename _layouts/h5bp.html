@@ -12,9 +12,7 @@
     {% for link in dlink[1] %}<link rel="{{ dlink[0] }}" {% for attr in link[1] %}{{ attr[0] }}="{{ attr[1] }}" {% endfor %}href="{% unless link[0] contains '//' %}/{{ project.repository_name }}/{% endunless %}{{ link[0] }}">{% endfor %}{% endfor %}
     <link rel="canonical" href="{{ project.url | remove_first: 'http:' }}{{ page.url }}">{% endfor %}
     <script src='//cdnjs.cloudflare.com/ajax/libs/modernizr/{{ h5bp.modernizr_version }}/modernizr.min.js'></script>
-    <script>window.Modernizr || document.write('<script src="js/vendor/modernizr-{{ h5bp.modernizr_version }}.min.js">\x3C/script>')</script>
-    {% endunless %}
-
+    <script>window.Modernizr || document.write('<script src="js/vendor/modernizr-{{ h5bp.modernizr_version }}.min.js">\x3C/script>')</script>{% endunless %}
   </head>
 {{content}}
 </html>
