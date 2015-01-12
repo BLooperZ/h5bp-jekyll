@@ -3,7 +3,10 @@
 <html{% for attr in site.html %} {{ attr[0] }}="{{ attr[1] }}"{% endfor %}>
   <head>
     <meta charset="{{ site.data.h5bp.charset }}">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ site.github.project_title }}{% if page.title %} – {{ page.title }}{% endif %}</title>
 
+    <link rel="canonical" href="{{ site.github.url | remove_first: 'http:' }}{{ page.url }}">
   </head>
 {{content}}
 </html>
